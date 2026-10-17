@@ -68,3 +68,5 @@ mlartifacts/
 .ipynb_checkpoints/
 .DS_Store
 Thumbs.db
+# Windows folder metadata
+desktop.ini
