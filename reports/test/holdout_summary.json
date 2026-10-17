@@ -1,0 +1,38 @@
+{
+  "project": "RetailPulse AI 2.0",
+  "data_source": "synthetic",
+  "selection_record": "models/champion_selection.json",
+  "champion_model": "gradient_boosting_v1",
+  "champion_frozen_before_test": true,
+  "retraining_performed": false,
+  "hyperparameter_tuning_performed": false,
+  "test_used_for_model_selection": false,
+  "test_period": {
+    "start": "2025-09-01",
+    "end": "2025-11-30"
+  },
+  "forecast_horizon_days": 1,
+  "evaluation_protocol": "rolling_one_day_ahead",
+  "test_observations_per_model": 9100,
+  "rmsse_scale_source": "training_only",
+  "champion_validation_wape_pct": 28.3538,
+  "champion_test_wape_pct": 28.6666,
+  "validation_to_test_wape_change_points": 0.3128,
+  "baseline_test_wape_pct": 34.141,
+  "champion_test_metrics": {
+    "model": "gradient_boosting_v1",
+    "split": "test",
+    "observations": 9100,
+    "wape_pct": 28.6666,
+    "rmsse": 0.6267,
+    "bias_pct": 0.3821
+  },
+  "baseline_test_metrics": {
+    "model": "rolling_mean_7",
+    "split": "test",
+    "observations": 9100,
+    "wape_pct": 34.141,
+    "rmsse": 0.7372,
+    "bias_pct": -0.9331
+  }
+}

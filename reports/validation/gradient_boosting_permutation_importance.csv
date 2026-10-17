@@ -1,0 +1,13 @@
+feature,baseline_validation_wape_pct,permuted_wape_mean_pct,wape_increase_mean_pp,wape_increase_std_pp,repeats
+sales_rolling_mean_28,28.3538,60.6097,32.2559,0.1691,3
+day_of_week,28.3538,33.8236,5.4698,0.1043,3
+sales_rolling_mean_7,28.3538,32.8862,4.5324,0.1161,3
+product_id,28.3538,29.0795,0.7257,0.0239,3
+sales_lag_1,28.3538,29.0282,0.6744,0.0482,3
+store_id,28.3538,28.7389,0.3851,0.0527,3
+sales_lag_7,28.3538,28.6692,0.3154,0.0176,3
+sales_rolling_mean_14,28.3538,28.6111,0.2573,0.0338,3
+sales_lag_14,28.3538,28.4291,0.0753,0.0193,3
+sales_lag_28,28.3538,28.4219,0.0681,0.0285,3
+month,28.3538,28.3575,0.0037,0.0012,3
+weekend_flag,28.3538,28.3538,0.0,0.0,3

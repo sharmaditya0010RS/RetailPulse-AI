@@ -1,0 +1,6 @@
+category,products,units_sold,lost_units,net_revenue,estimated_gross_profit,estimated_gross_margin_pct,revenue_share_pct,stockout_observation_rate_pct
+Beverages,2,312720,29757,21326151.66,8307099.82,38.95,18.31,11.46
+Grocery,2,326057,16671,19289070.38,7609425.4,39.45,16.56,6.26
+Household,2,222375,10116,27921027.69,10662596.28,38.19,23.97,5.46
+Personal Care,2,192402,9101,29786617.22,11496591.22,38.6,25.57,6.24
+Snacks,2,430330,14326,18177823.83,6934683.39,38.15,15.6,5.24

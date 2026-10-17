@@ -1,0 +1,2 @@
+date_start,date_end,observations,stores,products,days,units_sold,units_returned,lost_units,net_revenue,estimated_gross_profit,estimated_gross_margin_pct,stockout_observation_rate_pct,unmet_demand_rate_pct
+2024-01-01,2025-11-30,70000,10,10,700,1483884,37150,79971,116500690.78,45010396.11,38.64,6.93,5.11

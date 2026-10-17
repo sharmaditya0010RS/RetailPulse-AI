@@ -1,0 +1,31 @@
+{
+  "project": "RetailPulse AI 2.0",
+  "data_source": "synthetic",
+  "forecast_model": "gradient_boosting_v1",
+  "forecast_date": "2025-12-01",
+  "inventory_snapshot_date": "2025-11-30",
+  "forecast_horizon_days": 1,
+  "store_product_count": 100,
+  "total_predicted_daily_units": 1838.2594142083033,
+  "total_available_stock_units": 8269,
+  "total_target_stock_units": 10608,
+  "total_suggested_order_units": 4108,
+  "series_with_suggested_orders": 59,
+  "inventory_status_counts": {
+    "STOCKOUT": 15,
+    "BELOW_LEAD_TIME_COVERAGE": 27,
+    "REPLENISHMENT_SUGGESTED": 17,
+    "SUFFICIENT_FOR_POLICY": 41
+  },
+  "safety_days": 2.0,
+  "planning_method": "one_day_forecast_times_coverage_days",
+  "open_purchase_orders_included": false,
+  "limitations": [
+    "Synthetic retail data; not a live operational forecast.",
+    "One-day-ahead model; no validated multi-day forecasts.",
+    "Lead-time demand assumes constant daily predicted demand.",
+    "Safety days are illustrative, not service-level optimized.",
+    "Unconfirmed outstanding purchase orders are excluded.",
+    "Recommendations are decision support, not purchase orders."
+  ]
+}

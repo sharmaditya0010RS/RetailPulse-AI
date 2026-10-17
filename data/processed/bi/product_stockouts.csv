@@ -1,0 +1,11 @@
+product_id,category,brand,supplier_id,units_sold,lost_units,stockout_observations,stockout_observation_rate_pct,unmet_demand_rate_pct,estimated_gross_lost_sales_value
+P009,Household,HomeBright,SUP009,134756,6722,411,5.87,4.75,640337.47
+P007,Personal Care,PureGlow,SUP007,115336,5942,438,6.26,4.9,717247.79
+P006,Snacks,Snackly,SUP006,154848,7430,454,6.49,4.58,483530.01
+P005,Snacks,CrunchCo,SUP005,275482,6896,279,3.99,2.44,208777.0
+P010,Household,CleanNest,SUP010,87619,3394,353,5.04,3.73,603616.25
+P003,Beverages,Hydra,SUP003,220929,20452,764,10.91,8.47,722688.51
+P008,Personal Care,CarePlus,SUP008,77066,3159,435,6.21,3.94,672754.92
+P001,Grocery,FreshCo,SUP001,189777,11129,501,7.16,5.54,506669.79
+P004,Beverages,BrewHouse,SUP004,91791,9305,840,12.0,9.2,1406382.58
+P002,Grocery,DailyFarm,SUP002,136280,5542,375,5.36,3.91,445346.21

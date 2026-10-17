@@ -1,0 +1,18 @@
+{
+  "date_start": "2024-01-01",
+  "date_end": "2025-11-30",
+  "observations": 70000,
+  "stores": 10,
+  "products": 10,
+  "days": 700,
+  "units_sold": 1483884,
+  "units_returned": 37150,
+  "lost_units": 79971,
+  "net_revenue": 116500690.78,
+  "estimated_gross_profit": 45010396.11,
+  "estimated_gross_margin_pct": 38.64,
+  "stockout_observation_rate_pct": 6.93,
+  "unmet_demand_rate_pct": 5.11,
+  "data_source": "synthetic",
+  "gross_profit_note": "Estimated gross profit; excludes some operating costs."
+}

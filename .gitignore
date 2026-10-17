@@ -1,0 +1,70 @@
+.venv/
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+
+# Raw and intermediate data
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Allow compact dashboard BI exports
+!data/processed/bi/
+data/processed/bi/*
+!data/processed/bi/*.csv
+!data/processed/bi/*.json
+
+# Model binaries are not committed
+models/*
+!models/.gitkeep
+
+# Preserve frozen champion selection metadata
+!models/champion_selection.json
+
+# Reports: allow only reproducible dashboard artifacts
+reports/*
+!reports/test/
+!reports/validation/
+!reports/planning/
+
+reports/test/*
+!reports/test/holdout_metrics.csv
+!reports/test/holdout_predictions.csv
+!reports/test/holdout_summary.json
+!reports/test/error_analysis/
+
+reports/test/error_analysis/*
+!reports/test/error_analysis/*.csv
+!reports/test/error_analysis/*.json
+
+reports/validation/*
+!reports/validation/gradient_boosting_permutation_importance.csv
+!reports/validation/gradient_boosting_explainability_summary.json
+
+reports/planning/*
+!reports/planning/inventory_recommendations_2025-12-01.csv
+!reports/planning/inventory_recommendations_2025-12-01.json
+!reports/planning/inventory_planning_summary_2025-12-01.json
+
+# Logs and local artifacts
+logs/*
+!logs/.gitkeep
+
+mlruns/
+mlartifacts/
+*.db
+*.sqlite
+*.sqlite3
+
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

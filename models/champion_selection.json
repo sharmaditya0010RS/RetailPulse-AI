@@ -1,0 +1,57 @@
+{
+  "project": "RetailPulse AI 2.0",
+  "data_source": "synthetic",
+  "selection_status": "frozen_before_test_evaluation",
+  "selection_metric": "validation_wape_pct",
+  "tie_breaker": "validation_rmsse",
+  "champion_model": "gradient_boosting_v1",
+  "champion_artifact": "models/gradient_boosting_v1.joblib",
+  "validation_metrics": {
+    "wape_pct": 28.3538,
+    "rmsse": 0.6265,
+    "bias_pct": 0.6228
+  },
+  "training_period": {
+    "start": "2024-01-29",
+    "end": "2025-05-31"
+  },
+  "validation_period": {
+    "start": "2025-06-01",
+    "end": "2025-08-31"
+  },
+  "reserved_test_period": {
+    "start": "2025-09-01",
+    "end": "2025-11-30"
+  },
+  "forecast_horizon_days": 1,
+  "evaluation_protocol": "rolling_one_day_ahead",
+  "test_metrics_used_for_selection": false,
+  "rmsse_scaling": "Per-series mean squared first difference on feature-ready training rows only",
+  "candidate_metrics": [
+    {
+      "model": "gradient_boosting_v1",
+      "split": "validation",
+      "observations": 9200,
+      "wape_pct": 28.3538,
+      "rmsse": 0.6265,
+      "bias_pct": 0.6228
+    },
+    {
+      "model": "random_forest_v1",
+      "split": "validation",
+      "observations": 9200,
+      "wape_pct": 28.9108,
+      "rmsse": 0.6344,
+      "bias_pct": 2.6529
+    },
+    {
+      "model": "rolling_mean_7",
+      "split": "validation",
+      "observations": 9200,
+      "wape_pct": 33.5911,
+      "rmsse": 0.7334,
+      "bias_pct": 0.4323
+    }
+  ],
+  "frozen_at_utc": "2026-10-16T19:00:02.171994+00:00"
+}

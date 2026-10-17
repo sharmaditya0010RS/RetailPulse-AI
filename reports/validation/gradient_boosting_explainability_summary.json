@@ -1,0 +1,17 @@
+{
+  "project": "RetailPulse AI 2.0",
+  "data_source": "synthetic",
+  "model": "gradient_boosting_v1",
+  "analysis_split": "validation",
+  "validation_observations": 9200,
+  "method": "raw_feature_permutation_importance",
+  "metric": "wape",
+  "importance_unit": "percentage_points",
+  "repeats": 3,
+  "random_state": 42,
+  "original_validation_wape_pct": 28.3538,
+  "features_evaluated": 12,
+  "model_retrained": false,
+  "test_data_used": false,
+  "interpretation": "Positive WAPE increase indicates that shuffling the feature worsened validation predictions. Importance is associational, not causal."
+}

@@ -1,0 +1,27 @@
+{
+  "project": "RetailPulse AI 2.0",
+  "data_source": "synthetic",
+  "analysis_type": "descriptive_holdout_error_analysis",
+  "champion_model": "gradient_boosting_v1",
+  "baseline_model": "rolling_mean_7",
+  "test_rows_per_model": 9100,
+  "model_retrained": false,
+  "test_used_for_model_selection": false,
+  "groupings": {
+    "store": {
+      "groups": 10,
+      "champion_winning_groups": 10,
+      "champion_losing_or_tied_groups": 0
+    },
+    "product": {
+      "groups": 10,
+      "champion_winning_groups": 10,
+      "champion_losing_or_tied_groups": 0
+    },
+    "day_of_week": {
+      "groups": 7,
+      "champion_winning_groups": 7,
+      "champion_losing_or_tied_groups": 0
+    }
+  }
+}
